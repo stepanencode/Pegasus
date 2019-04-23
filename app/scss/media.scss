@@ -1,0 +1,25 @@
+@import "mixin";
+
+// Sizes
+$desktop: 1400px;
+//$desktop: 1280px;
+$tablet: 960px;
+$portreit: 640px;
+$mobile: 320px;
+$scrollbar: 15px;
+// Desktop
+@media (min-width:($desktop + $scrollbar)) {
+  @include message('Desktop');
+}
+// Tablet
+@media (max-width: ($desktop + $scrollbar)) {
+  @include message('Tablet');
+}
+// Portreit
+@media (max-width: ($tablet + $scrollbar)) {
+  @include message('Portreit');
+}
+// Mobile
+@media (max-width: ($portreit + $scrollbar)) {
+  @include message('Mobile');
+}

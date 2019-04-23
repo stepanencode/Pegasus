@@ -1,0 +1,25 @@
+.clearfix {
+  zoom: 1;
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+// Body message
+@mixin message($msg){
+  body {
+    &:before {
+      content: $msg;
+      position: fixed;
+      left: 10px;
+      bottom: 10px;
+      display: inline-block;
+      padding: 10px;
+      background: orange;
+      color: #fff;
+    }
+  }
+}
