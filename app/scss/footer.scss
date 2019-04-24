@@ -1,0 +1,150 @@
+.footer {
+  position: relative;
+  color: white;
+}
+
+.background-city {
+  background-image: url("../img/background-footer.png");
+  height: 338px;
+  background-size: cover;
+
+}
+
+.background-city_black {
+  background: rgba(0,0,0, 0.8);
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 338px;
+  width: 100%;
+}
+
+.footer-container {
+  //background: @black;
+  max-width: 1165px;
+  height: auto;
+  vertical-align: middle;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 2;
+  }
+
+//.footer-flex-container {
+//  display: inline-flex;
+//  justify-content: space-around;
+//}
+
+.footer-flex-container {
+  display: inline-flex;
+  justify-content: space-between;
+  max-width: 1230px;
+  width: 100%;
+}
+
+
+
+//.footer-container-items {
+//  border-right: 2px solid white;
+//  text-align: left;
+//}
+
+
+.footer-header {
+  font-family: 'Romul', serif;
+  margin-top: 1.8em;
+  font-size: 1.1875em;
+  text-align: left;
+  font-weight: 400;
+
+}
+
+.footer-header_position_1,
+.footer-header_position_2 {
+  position: relative;
+}
+
+.footer-column-1 {
+  max-width: 241px;
+  width: 100%;
+  //border-right: 1px solid red;
+}
+
+.footer-column__text-wrapper {
+  border-right: 1px solid red;
+}
+
+.footer-column-2 {
+  max-width: 343px;
+  width: 100%;
+  padding-left: 7%;
+}
+
+
+
+.footer-column-3 {
+  max-width: 320px;
+  width: 100%;
+  border-right: 1px solid red;
+  padding-left: 7%;
+}
+
+.footer-column-4 {
+  margin-top: 1.8em;
+  text-align: right;
+  max-width: 258px;
+  width: 100%;
+
+}
+
+//.footer-column__item-1 {
+//  max-width: 241px;
+//  width: 100%;
+//}
+
+//.footer-column__item-2 {
+//  width: 343px;
+//}
+//
+//.footer-column__item-3 {
+//  width: 320px;
+//}
+//
+//.footer-column__item-4 {
+//  width: 258px;
+//}
+
+.footer__text {
+  font-size: 0.9375em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.decorate-line-footer {
+  width: 65px;
+  height: 2px;
+  border: none;
+  color: #d0aa8c;
+  background-color: #d0aa8c;
+
+}
+
+.decorate-line-footer_position_car {
+  position: absolute;
+  top: 33px;
+  left: 7px;
+}
+
+.decorate-line-footer_position_service {
+  position: absolute;
+  top: 33px;
+  left: 12px;
+}
+
+
+

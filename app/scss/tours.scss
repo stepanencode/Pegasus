@@ -9,14 +9,15 @@
 
 .tour-container {
   max-width: 570px;
-  width: 569px;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   margin: 0 auto;
   position: relative;
 }
 
 .tours-image {
-  max-width: 555px;
+  //max-width: 555px;
+  width: 100%;
 
 }
 
@@ -50,3 +51,8 @@
 .tour__text_second {
   padding-top: 4px;
 }
+
+.tours {
+  padding-bottom: 12px;
+}
+
