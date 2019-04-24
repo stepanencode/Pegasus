@@ -1,5 +1,9 @@
+@import "media";
+
 body {
   font-family: sans-serif;
+  text-transform: uppercase;
+
 }
 .container {
   //width: 800px;
@@ -12,3 +16,27 @@ body {
     outline: none;
   }
 }
+
+@font-face {
+  font-family: Romul;
+  src: url(/public/fonts/romul.ttf);
+}
+
+p {
+  font-family: Romul, serif;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #2f2c34;
+}
+
+@media (min-width:($desktop + $scrollbar)) {
+  body {
+    //background: url("../img/pegasus-pixel-perfect.png") no-repeat;
+    //opacity: 0.5;
+  }
+}
+
+

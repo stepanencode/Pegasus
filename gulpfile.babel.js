@@ -218,7 +218,7 @@ gulp.task("sass-compile", function() {
 		.pipe(sourcemaps.init())
 		.pipe(sass().on("error", sass.logError))
 		.pipe(autoprefixer({
-			browsers: ['last 25 versions'],
+			browsers: ['last 5 versions'],
 			cascade: false
 		}))
 		.pipe(concat('app.css'))
