@@ -1,0 +1,57 @@
+.page-menu {
+  width: 100%;
+  background-color: #2f2c34;
+}
+
+.wrapper-nav {
+  margin: 0 auto;
+  max-width: 1279px;
+}
+
+.menu {
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 100%;
+  line-height: 1.4em;
+}
+
+.menu__item {
+  font-family: 'Romul', serif;
+  display: inline-block;
+  background-color: #2f2c34;
+  width: 16.7%;
+  max-width: 205px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.menu__item-text {
+  border-right: 1px solid #d0aa8c;
+  color: white;
+  font-size: 0.9375em;
+  font-family: 'Romul', serif;
+}
+
+.menu__item-3 {
+  width: 18.9%;
+  max-width: 235px;
+}
+
+.menu__item-4 {
+  width: 17.3%;
+  max-width: 235px;
+}
+
+.menu__item-5 {
+  width: 15.3%;
+  max-width: 235px;
+}
+
+.menu__item-6 {
+  padding-left: 2%;
+}
+
+.menu__item-text_border {
+  border: none;
+}
