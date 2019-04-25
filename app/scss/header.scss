@@ -57,13 +57,22 @@
   justify-content: flex-end;
 }
 
-.phone-messenger {
+.phone-messenger_header_position {
   position: relative;
   margin-left: 14.5%;
 }
 
+.phone-messenger_footer_position {
+  line-height: 6px;
+  padding-top: 5px;
+}
+
 .hotline{
   position: relative;
+}
+
+.hotline_footer_position {
+  line-height: 6px;
 }
 
 .decorate-line {
@@ -103,3 +112,23 @@
   bottom: 0;
   margin-left: -106px;
 }
+
+
+.hotline__number_color_white,
+.phone-messenger__number_color_white,
+.hotline__text_color_white,
+.phone-messenger__text_color_white {
+  color: #9a9a9a;
+}
+
+.hotline__number_color_white:hover,
+.phone-messenger__number_color_white:hover{
+  color: white;
+}
+
+.phone-messenger__text_color_white,
+.hotline__text_color_white {
+  font-size: 0.625em;
+  font-weight: 400;
+}
+
