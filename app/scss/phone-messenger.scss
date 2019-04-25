@@ -1,0 +1,76 @@
+.phone-messenger {
+  &__number {
+    font-size: 1.0625em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    &_color_white {
+      color: #9a9a9a;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  &__text {
+    font-size: 0.625em;
+    font-family: 'Montserrat', sans-serif;
+    color: #d0aa8c;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    padding-left: 1.3%;
+    &_color_white {
+      color: #9a9a9a;
+      font-size: 0.625em;
+      font-weight: 400;
+    }
+  }
+  &_header_position {
+    position: relative;
+    margin-left: 14.5%;
+  }
+  &_footer_position {
+    line-height: 6px;
+    padding-top: 5px;
+  }
+}
+
+.phone-messenger__number_footer{
+  font-size: 0.9375em;
+  font-weight: 100;
+  letter-spacing: -0.3px;
+}
+
+//Tablet
+@media (max-width: ($desktop + $scrollbar)) {
+  .phone-messenger__number_footer{
+    font-size: 0.9375em;
+    font-weight: 100;
+    letter-spacing: -0.3px;
+  }
+}
+
+//Portreit
+@media (max-width: ($tablet + $scrollbar)) {
+
+
+  .phone-messenger__number_footer{
+    font-size: 0.9375em;
+    font-weight: 100;
+    letter-spacing: -0.3px;
+  }
+}
+
+//Mobile
+@media (max-width: ($portreit + $scrollbar)) {
+
+  .phone-messenger__number {
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+
+  .phone-messenger__number_footer{
+    font-size: 0.9375em;
+    font-weight: 100;
+    letter-spacing: -0.3px;
+  }
+}

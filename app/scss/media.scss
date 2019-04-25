@@ -9,17 +9,17 @@ $mobile: 320px;
 $scrollbar: 15px;
 // Desktop
 @media (min-width:($desktop + $scrollbar)) {
-  @include message('Desktop');
+  //@include message('Desktop');
 }
 // Tablet
 @media (max-width: ($desktop + $scrollbar)) {
-  @include message('Tablet');
+  //@include message('Tablet');
 }
 // Portreit
 @media (max-width: ($tablet + $scrollbar)) {
-  @include message('Portreit');
+  //@include message('Portreit');
 }
 // Mobile
 @media (max-width: ($portreit + $scrollbar)) {
-  @include message('Mobile');
+  //@include message('Mobile');
 }

@@ -1,0 +1,26 @@
+
+.background-city {
+  background-image: url("../img/background-footer.png");
+  height: 338px;
+  background-size: cover;
+  &_black {
+    background: rgba(0,0,0, 0.8);
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 338px;
+    width: 100%;
+  }
+}
+
+//Mobile
+@media (max-width: ($portreit + $scrollbar)) {
+
+  .background-city {
+    display: none;
+    &_black {
+      display: none;
+    }
+  }
+}

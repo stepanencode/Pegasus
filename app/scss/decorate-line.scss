@@ -1,0 +1,123 @@
+.decorate-line {
+  width: 25.1613%;
+  height: 1px;
+  border: none;
+  color: #d0aa8c;
+  background-color: #d0aa8c;
+  &_hotline {
+    position: absolute;
+    top: 31px;
+    right: -1px;
+    margin: 0;
+  }
+  &_messenger {
+    width: 20%;
+    position: absolute;
+    top: 29px;
+    right: 0;
+    margin: 0;
+  }
+}
+
+.decorate-line-footer {
+  width: 65px;
+  height: 2px;
+  border: none;
+  color: #d0aa8c;
+  background-color: #d0aa8c;
+  &_position_car {
+    position: absolute;
+    top: 33px;
+    left: 7px;
+  }
+  &_position_service {
+    position: absolute;
+    top: 33px;
+    left: 12px;
+  }
+  &_position_about {
+    position: absolute;
+    top: 33px;
+    left: 12px;
+  }
+}
+
+.decorate-line-tour{
+  width: 90px;
+  height: 2px;
+  border: none;
+  color: #d0aa8c;
+  background-color: #d0aa8c;
+  position: absolute;
+  top: 298px;
+  left: 243px;
+}
+
+.decorate-line-tours {
+  width: 11%;
+  height: 2px;
+  border: none;
+  color: #d0aa8c;
+  background-color: #d0aa8c;
+  &_before {
+    position: absolute;
+    top: 65px;
+    left: 137px;
+  }
+  &_after{
+    position: absolute;
+    top: 65px;
+    right: 137px;
+  }
+}
+
+//Portreit
+@media (max-width: ($tablet + $scrollbar)) {
+
+  .decorate-line-tours_before  {
+    position: absolute;
+    top: 65px;
+    left: 109px;
+  }
+
+  .decorate-line-tours_after {
+    position: absolute;
+    top: 65px;
+    right: 109px;
+  }
+}
+
+//Mobile
+@media (max-width: ($portreit + $scrollbar)) {
+
+  .decorate-line {
+    display: none;
+  }
+
+  .decorate-line-tour {
+    display: none;
+  }
+
+  .decorate-line-tours {
+    display: none;
+  }
+
+  .decorate-line-footer{
+    &_position_car {
+    position: absolute;
+    top: 33px;
+    left: 116px;
+    }
+    &_position_service {
+    position: absolute;
+    top: 33px;
+    left: 116px;
+    }
+    &_position_about {
+    position: absolute;
+    top: 33px;
+    left: 120px;
+    }
+  }
+}
+

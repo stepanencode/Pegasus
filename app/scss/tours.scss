@@ -4,7 +4,6 @@
   flex-wrap: wrap;
   padding-top: 50px;
   text-align: center;
-
 }
 
 .tour-container {
@@ -18,27 +17,12 @@
 .tours-image {
   //max-width: 555px;
   width: 100%;
-
 }
 
 .tour-title {
   font-size: 1.5625em;
   margin: 0 auto;
   padding-top: 19px;
-}
-
-.decorate-line-tour{
-  width: 90px;
-  height: 2px;
-  border: none;
-  color: #d0aa8c;
-  background-color: #d0aa8c;
-}
-
-.decorate-line-tour {
-  position: absolute;
-  top: 298px;
-  left: 243px;
 }
 
 .tour__text {
@@ -56,9 +40,4 @@
   padding-bottom: 12px;
 }
 
-@media (max-width: ($portreit + $scrollbar)) {
-  .decorate-line-tour {
-    display: none;
-  }
-}
 

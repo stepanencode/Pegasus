@@ -1,0 +1,69 @@
+.copyright {
+  margin-top: 25px;
+  color: #9a9a9a;
+  font-family: Montserrat;
+  font-size: 0.9375em;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.copyright p {
+  color: #9a9a9a;
+}
+.copyright a {
+  color: #9a9a9a;
+}
+
+//Tablet
+@media (max-width: ($desktop + $scrollbar)) {
+  .copyright {
+    padding-top: 0;
+    margin-top: 0;
+    color: #9a9a9a;
+    font-size: 0.825em;
+  }
+
+  .copyright p {
+    color: #9a9a9a;
+  }
+  .copyright a {
+    color: #9a9a9a;
+  }
+}
+
+//Portreit
+@media (max-width: ($tablet + $scrollbar)) {
+
+  .copyright {
+    padding-top: 0;
+    margin-top: 0;
+    color: #9a9a9a;
+    font-size: 0.825em;
+  }
+
+  .copyright p {
+    color: #9a9a9a;
+  }
+  .copyright a {
+    color: #9a9a9a;
+  }
+}
+
+//Mobile
+@media (max-width: ($portreit + $scrollbar)) {
+
+  .copyright {
+    font-size: 0.825em;
+    color: #9a9a9a;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .copyright p {
+    color: #9a9a9a;
+  }
+  .copyright a {
+    color: #9a9a9a;
+  }
+}

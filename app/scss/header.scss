@@ -1,105 +1,38 @@
-.hotline__number,
-.phone-messenger__number {
-  font-size: 1.0625em;
-  font-weight: 500;
-  letter-spacing: 1px;
-}
 
-.hotline__text,
-.phone-messenger__text {
-  font-size: 0.625em;
-  font-family: 'Montserrat', sans-serif;
-  color: #d0aa8c;
-  font-weight: 700;
-  letter-spacing: 0.63px;
-  padding-left: 1.3%;
+.header {
+  position: relative;
+  &__phone {
+    background-color: white;
+    border-top: 1px solid #2f2c34;
+    margin-top: 26px;
+    padding-top: 27px;
+    margin-left: 1.3%;
+    padding-left: 1.1%;
+    padding-bottom: 12px;
+    width: 44.4%;
+    line-height: 0.85em;
+    display: inline-flex;
+    justify-content: flex-start;
+  }
+  &__book {
+    background-color: white;
+    border-top: 1px solid #2f2c34;
+    margin-top: 26px;
+    padding-top: 25px;
+    margin-right: 1.3%;
+    padding-right: 1.1%;
+    padding-bottom: 25px;
+    width: 44.4%;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
 }
-
 
 .header-wrapper {
   display: flex;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   background-color: white;
-}
-
-.header__phone
-{
-  background-color: white;
-  border-top: 1px solid #2f2c34;
-  margin-top: 26px;
-  padding-top: 27px;
-  margin-left: 1.3%;
-  padding-left: 1.1%;
-  padding-bottom: 12px;
-  width: 44.4%;
-  line-height: 0.85em;
-}
-
-.header__book {
-  background-color: white;
-  border-top: 1px solid #2f2c34;
-  margin-top: 26px;
-  padding-top: 25px;
-  margin-right: 1.3%;
-  padding-right: 1.1%;
-  padding-bottom: 25px;
-  width: 44.4%;
-}
-
-.header__phone {
-  display: inline-flex;
-  justify-content: flex-start;
-}
-
-.header__book {
-  display: inline-flex;
-  justify-content: flex-end;
-}
-
-.phone-messenger_header_position {
-  position: relative;
-  margin-left: 14.5%;
-}
-
-.phone-messenger_footer_position {
-  line-height: 6px;
-  padding-top: 5px;
-}
-
-.hotline{
-  position: relative;
-}
-
-.hotline_footer_position {
-  line-height: 6px;
-}
-
-.decorate-line {
-  width: 25.1613%;
-  height: 1px;
-  border: none;
-  color: #d0aa8c;
-  background-color: #d0aa8c;
-}
-
-.decorate-line_hotline {
-  position: absolute;
-  top: 31px;
-  right: -1px;
-  margin: 0;
-}
-
-.decorate-line_messenger {
-  width: 24%;
-  position: absolute;
-  top: 29px;
-  right: 0;
-  margin: 0;
-}
-
-.header {
-  position: relative;
 }
 
 .header-logo {
@@ -113,26 +46,9 @@
   margin-left: -106px;
 }
 
-
-.hotline__number_color_white,
-.phone-messenger__number_color_white,
-.hotline__text_color_white,
-.phone-messenger__text_color_white {
-  color: #9a9a9a;
-}
-
-.hotline__number_color_white:hover,
-.phone-messenger__number_color_white:hover{
-  color: white;
-}
-
-.phone-messenger__text_color_white,
-.hotline__text_color_white {
-  font-size: 0.625em;
-  font-weight: 400;
-}
-
+// Tablet
 @media (max-width: ($desktop + $scrollbar)) {
+
   .header-logo {
     max-width: 142px;
     width: 100%;
@@ -145,8 +61,9 @@
   }
 }
 
+//Portreit
 @media (max-width: ($tablet + $scrollbar)) {
-//@include message('Portreit');
+
    .header-logo {
      display: block;
      position: static;
@@ -177,19 +94,4 @@
  }
 
 
-@media (max-width: ($portreit + $scrollbar)) {
-  //@include message('Mobile');
-  .decorate-line {
-    display: none;
-  }
-
-  .hotline__number,
-  .phone-messenger__number {
-    font-size: 1em;
-    font-weight: 300;
-    letter-spacing: -0.3px;
-  }
-
-
-}
 
