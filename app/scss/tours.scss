@@ -56,3 +56,9 @@
   padding-bottom: 12px;
 }
 
+@media (max-width: ($portreit + $scrollbar)) {
+  .decorate-line-tour {
+    display: none;
+  }
+}
+

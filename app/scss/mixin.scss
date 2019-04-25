@@ -14,6 +14,7 @@
     &:before {
       content: $msg;
       position: fixed;
+      z-index: 100;
       left: 10px;
       bottom: 10px;
       display: inline-block;

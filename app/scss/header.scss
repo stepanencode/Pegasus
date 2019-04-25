@@ -132,3 +132,64 @@
   font-weight: 400;
 }
 
+@media (max-width: ($desktop + $scrollbar)) {
+  .header-logo {
+    max-width: 142px;
+    width: 100%;
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    margin-left: -71px;
+  }
+}
+
+@media (max-width: ($tablet + $scrollbar)) {
+//@include message('Portreit');
+   .header-logo {
+     display: block;
+     position: static;
+     margin: 0 auto;
+   }
+
+  .header-wrapper{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .header__phone,
+  .header__book {
+    width: 100%;
+    max-width: 410px;
+    justify-content: space-around;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .header__phone {
+    padding-top: 23.5px;
+  }
+ }
+
+
+@media (max-width: ($portreit + $scrollbar)) {
+  //@include message('Mobile');
+  .decorate-line {
+    display: none;
+  }
+
+  .hotline__number,
+  .phone-messenger__number {
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+
+
+}
+

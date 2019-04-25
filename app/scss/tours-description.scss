@@ -60,3 +60,27 @@
 .wrapper {
   background-color: white;
 }
+
+
+@media (max-width: ($tablet + $scrollbar)) {
+  //@include message('Portreit');
+
+  .decorate-line-tours_before  {
+    position: absolute;
+    top: 65px;
+    left: 109px;
+  }
+
+  .decorate-line-tours_after {
+    position: absolute;
+    top: 65px;
+    right: 109px;
+  }
+}
+
+@media (max-width: ($portreit + $scrollbar)) {
+
+  .decorate-line-tours {
+    display: none;
+  }
+}
