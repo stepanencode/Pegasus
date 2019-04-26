@@ -19,6 +19,7 @@
     "main-bower-files": "2.8.0"
   },
   "dependencies": {
+    "gulp-pngquant": "^1.0.12",
     "gulp-sass": "^4.0.2",
     "gulp-scss": "^1.4.0",
     "normalize.scss": "^0.1.0"

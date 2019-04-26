@@ -16,6 +16,7 @@ import templateData from './app/data/data.json';
 import mainBowerFiles from 'main-bower-files';
 let bowerFiles = mainBowerFiles();
 import sass from 'gulp-sass';
+const gulpPngquant = require('gulp-pngquant');
 
 
 
@@ -23,6 +24,17 @@ console.info(`
 ********** Bower Files **********
 ${bowerFiles}
 `);
+
+/******************************
+ * Compress png task
+ ******************************/
+gulp.task('compresspng', function() {
+	gulp.src('./public/img/**/*.png')
+		.pipe(gulpPngquant({
+			quality: '65-80'
+		}))
+		.pipe(gulp.dest('./public/minified/images/'));
+});
 
 
 /******************************
