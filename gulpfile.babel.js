@@ -28,12 +28,12 @@ ${bowerFiles}
 /******************************
  * Compress png task
  ******************************/
-gulp.task('compresspng', function() {
-	gulp.src('./public/img/**/*.png')
+gulp.task('compressPng', function() {
+	gulp.src('./assets/**/*.png')
 		.pipe(gulpPngquant({
 			quality: '65-80'
 		}))
-		.pipe(gulp.dest('./public/minified/images/'));
+		.pipe(gulp.dest('public'));
 });
 
 
@@ -67,7 +67,8 @@ gulp.task('build', [
 gulp.task('copyAssets', () => {
 	return gulp.src([
 		'assets/**/*.*',
-		'!assets/**/*.scss'
+		'!assets/**/*.scss',
+		'!assets/**/*.png'
 	])
 		.pipe(gulp.dest('public'));
 });
